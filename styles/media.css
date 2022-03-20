@@ -1,0 +1,114 @@
+@media (max-width:1200px) {
+    .film-content, .collect-content{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media (max-width:992px) {
+    
+}
+@media (max-width:768px) {
+    .intro__title{
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .intro__text{
+        margin-bottom: 30px;
+        width: 100%;
+        line-height: 20px;
+    }
+    .series-content{
+        grid-template-columns: 1fr 1fr;
+    }
+    .series__box:nth-child(1){
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .footer-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__text{
+        margin-top: 10px;
+    }
+    
+}
+@media (max-width:576px) {
+    .nav-content{
+        padding-top: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header__list{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header__item{
+        padding: 15px;
+    }
+    .intro__title{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .intro__text{
+        margin-bottom: 15px;
+        width: 100%;
+        line-height: 18px;
+    }
+    .video-content{
+        padding: 22px 0 40px;
+    }
+    .video__img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .video__text{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .series-content{
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px auto;
+    }
+    .series__box:nth-child(1){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .series__box:nth-child(2){
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .series__title{
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .series__text{
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .footer__shop{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width:450px) {
+    .intro{
+        height: 300px;
+    }
+    .intro__bg{
+        height: 100%;
+    }
+    .intro__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .download-btn{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .collect__box{
+        width: 100%;
+    }
+}
